@@ -37,12 +37,12 @@ body {
 }
 
 header {
-	background-color: blue;
+	background-color: teal;
 	grid-column: span 3;
 	padding: 16px;
 }
 nav {
-	background-color: red;
+	background-color: hotpink;
 	padding: 16px;
 }
 main {
