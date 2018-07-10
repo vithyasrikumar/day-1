@@ -1,0 +1,82 @@
+/*h1 {
+    font-size: 120px;
+    color: rgb(100,100,200);
+    background-color: none;
+    text-align: center;   
+}
+
+html {
+	background-image: url(architecture-coffee-machine-coffee-maker-683039.jpg);
+}
+
+h5 {
+	font-family: "Comic Sans MS";
+	font-size: 100px;
+}
+
+p{
+	font-size: 35px;
+}
+
+div {
+	border: 15px solid blue;
+	padding: 20px;
+	margin: 100px;
+	max-width: 600px;
+}*/
+
+html { 
+	font-family: sans-serif;
+	font-size: 24px;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: blue;
+	grid-column: span 3;
+	padding: 16px;
+}
+nav {
+	background-color: red;
+	padding: 16px;
+}
+main {
+	background-color: lightblue;
+	padding: 16px;
+}
+aside {
+	background-color: purple;
+	padding: 16px;
+}
+footer {
+	background-color: pink;
+	grid-column: span 3;
+	padding: 16px;
+}
+.container {
+	border: 1px solid rgba(0,0,0,0.4);
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 20% auto 20%;
+	grid-template-rows: auto 1fr auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
